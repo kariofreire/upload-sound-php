@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap');
+
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: -moz-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+	background-image: -webkit-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+	background-image: -ms-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+	background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+	background-attachment: fixed;
+	font-family: 'Baloo Paaji 2', cursive;
+}
+
+.jumbotron {
+	background-color: white;
+}
+
+.btn {
+	background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+	color: white;
+	border: none;
+	font-weight: normal;
+}
+
+.bnt:hover {
+	color: white !important;
+}
+
+.icon-success {
+	background-image: url('../images/icon-success-circle.svg');
+	height: 120px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.logo-code-rocket {
+	text-align: center;
+}
+
+.logo-code-rocket img {
+	width: 100px;
+	height: auto;
+	margin: 50px 0px 25px 0px;
+}
+
+.logo-code-rocket hr {
+	width: 48px;
+	margin-bottom: 25px;
+	border-color: white;
+	border: 2px solid white;
+	border-radius: 2px;
+}
+
+#fileSoundIcon {
+	background-image: url('../images/upload-no-color.svg');
+	height: 150px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	background-position: center;
+}
+
+.description {
+	margin-top: 50px;
+	font-size: 26px;
+	text-align: center!important;
+	color: #41AD49;
+	font-weight: bold;
+}
+
+.none {
+	display: none;
+}
+
+.block {
+	display: block;
+}
